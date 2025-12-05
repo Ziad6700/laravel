@@ -1,0 +1,11 @@
+/node_modules
+/vendor
+/.env
+/public/storage
+/storage/*.key
+.env.backup
+Homestead.yaml
+Homestead.json
+/.vagrant
+npm-debug.log
+yarn-error.log
