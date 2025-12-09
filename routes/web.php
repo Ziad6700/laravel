@@ -26,4 +26,8 @@ Route::get('/contactus', function () {
     return view('contactus');
 });
 
+Route::get('/newposttekst', function () {
+    return view('newposttekst');
+});
+
 Route::resource('posts', PostController::class);

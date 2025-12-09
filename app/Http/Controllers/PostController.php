@@ -31,7 +31,13 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //dingen doen zoals opslaan
+        $message = new post();
+    $message->title = $request->title;
+    $message->body = $request->body;
+    $message->save();
+        
+        return redirect('/posts/create');
     }
 
     /**

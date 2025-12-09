@@ -13,7 +13,7 @@
 @section('content')
     <h3>This is the post page!</h3>
 
-    <form action="/posts/create" method="POST">
+    <form action="/posts" method="POST">
     @csrf
 
     <label>Title:</label><br>
